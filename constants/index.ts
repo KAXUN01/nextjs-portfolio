@@ -92,6 +92,7 @@ export const Skill_data = [
     {
       name: "Instagram",
       src: "/discord.svg",
+      
     },
   ];
   

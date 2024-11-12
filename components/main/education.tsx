@@ -22,12 +22,6 @@ const SkillsEducationSection = () => {
             Skills
           </h2>
           <ul className="list-disc pl-5 space-y-2 text-white">
-            <li>HTML5 & CSS3</li>
-            <li>JavaScript (ES6+)</li>
-            <li>React & Next.js</li>
-            <li>Tailwind CSS</li>
-            <li>Node.js & Express</li>
-            <li>MongoDB</li>
             <li>Git & GitHub</li>
             <li>Docker</li>
             <li>CI/CD Pipelines</li>
@@ -37,6 +31,12 @@ const SkillsEducationSection = () => {
             <li>Jenkins</li>
             <li>Linux (Ubuntu, CentOS)</li>
             <li>Monitoring Tools (Prometheus, Grafana)</li>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React & Next.js</li>
+            <li>Tailwind CSS</li>
+            <li>Node.js & Express</li>
+            <li>MongoDB</li>
           </ul>
         </motion.div>
 

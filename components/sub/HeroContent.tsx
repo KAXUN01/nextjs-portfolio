@@ -16,22 +16,22 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-20 mt-40 w-full  "
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[620px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[630px] w-auto h-auto "
         >
           <span>
             Hello! I'm
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">
               {" "}
               KASUN{" "}
             </span>
             <Typewriter
               options={{
-                strings: ["Devops Engineer", "Full stack Developer"],
+                strings: ["Devops Engineer", "Full Stack Developer"],
                 autoStart: true,
                 loop: true,
               }}
@@ -41,16 +41,20 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-md text-gray-400 my-5 max-w-[620px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m a Full Stack Software Engineer with a strong foundation in
+          DevOps. I build and deploy efficient, scalable applications, combining
+          creative problem-solving with technical precision. Check out my
+          projects and skills to see how I bring ideas to life from code to
+          production!
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className=" hover:scale-105 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]  "
+          href="#"
         >
-          Learn More!
+          Get CV
         </motion.a>
       </div>
 

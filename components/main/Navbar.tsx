@@ -19,7 +19,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            KAXUN Dev
           </span>
         </a>
 
@@ -28,11 +28,17 @@ const Navbar = () => {
             <a href="#about-me" className="cursor-pointer">
               About me
             </a>
+            <a href="#education" className="cursor-pointer">
+              Education
+            </a>
             <a href="#skills" className="cursor-pointer">
               Skills
             </a>
             <a href="#projects" className="cursor-pointer">
               Projects
+            </a>
+            <a href="#projects" className="cursor-pointer">
+              Contact me
             </a>
           </div>
         </div>

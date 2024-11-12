@@ -31,8 +31,8 @@ const Projects = () => {
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Nextjs & Three Portfolio"
+          description=" Developed a Portfolio website using Next-js, Three-js and Framer motion"
           liveDemoUrl="https://your-space-website-demo.com" // Update with actual live demo URL
         />
       </div>
@@ -52,8 +52,8 @@ const Projects = () => {
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Nextjs & Three Portfolio"
+          description=" Developed a Portfolio website using Next-js, Three-js and Framer motion"
           liveDemoUrl="https://your-space-website-demo.com" // Update with actual live demo URL
         />
       </div>

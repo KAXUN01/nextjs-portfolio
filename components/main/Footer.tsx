@@ -16,9 +16,9 @@ const Footer = () => {
       className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[20px] z-[30]"
       id="contact"
     >
-      <div className="w-full flex flex-col items-center justify-center m-auto z-[30]">
+      <div className="w-full flex flex-col items-left justify-center m-auto z-[30]">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap z-[30]">
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-left justify-start">
             <div className="font-bold text-[18px]">Community</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaYoutube />
@@ -33,7 +33,7 @@ const Footer = () => {
               <span className="text-[15px] ml-[6px]">Discord</span>
             </p>
           </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-left justify-start">
             <div className="font-bold text-[18px]">Social Media</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxInstagramLogo />
@@ -49,19 +49,13 @@ const Footer = () => {
             </p>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[18px] justify-start">About</div>
             <div className="">
               <Mail />
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
         </div>
 
-        <div className="mb-[20px] text-[12px] text-center p-[10px]">
+        <div className="mb-[10px] text-[12px] text-center ">
           &copy; KAXUN Dev 2024 Inc. All rights reserved
         </div>
       </div>

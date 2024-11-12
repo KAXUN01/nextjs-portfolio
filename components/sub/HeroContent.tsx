@@ -11,12 +11,12 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full relative z-[50]"
+      className="flex flex-row items-center justify-center px-20 mt-40 w-full relative "
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start relative z-[55]">
+      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start relative ">
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[630px] w-auto h-auto relative z-[60]"
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[630px] w-auto h-auto relative "
         >
           <span>
             Hello! I'm
@@ -36,7 +36,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-md text-gray-400 my-5 max-w-[620px] relative z-[60]"
+          className="text-md text-gray-400 my-5 max-w-[620px] relative "
         >
           I&apos;m a Full Stack Software Engineer with a strong foundation in
           DevOps. I build and deploy efficient, scalable applications, combining
@@ -45,10 +45,10 @@ const HeroContent = () => {
 
         <motion.a
           variants={slideInFromLeft(1)}
-          className="z-[70] hover:scale-105 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] relative"
+          className="z-30 hover:scale-125 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] relative transition-transform duration-300 ease-in-out"
           href="#"
         >
-          Get CV
+          DOWNLOAD CV
         </motion.a>
       </div>
 

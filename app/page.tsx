@@ -13,7 +13,6 @@ export default function Home() {
         <Hero />
         <AboutMe />
         <Education />
-        <Encryption />
         <Projects />
       </div>
     </main>

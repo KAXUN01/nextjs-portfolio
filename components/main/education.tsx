@@ -3,7 +3,7 @@ import React from "react";
 
 const SkillsEducationSection = () => {
   return (
-    <div className="container mx-auto px-40 py-12" id="education">
+    <div className="container mx-auto px-40 py-1" id="education">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Skills Section */}
         <div className="bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md">

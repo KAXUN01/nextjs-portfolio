@@ -5,7 +5,10 @@ import { FaFacebook, FaFigma, FaStackOverflow, FaMedium } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-950 text-gray-200 py-10 px-6 md:px-40">
+    <footer
+      className="w-full bg-gray-950 text-gray-200 py-10 px-6 md:px-40 shadow-lg border rounded-xl border-gray-700/40"
+      id="contact"
+    >
       {/* Centered Mail Section */}
       <div className="flex justify-center mb-6">
         <a
@@ -21,7 +24,7 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start space-y-4 z-40">
           <h3 className="text-xl font-bold mb-2">Community</h3>
           <a
-            href="https://www.figma.com/@kaxun"
+            href="https://figma.com/yourprofile" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -30,7 +33,7 @@ const Footer = () => {
             <span>Figma</span>
           </a>
           <a
-            href="https://github.com/KAXUN01"
+            href="https://github.com/yourprofile" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -39,7 +42,7 @@ const Footer = () => {
             <span>GitHub</span>
           </a>
           <a
-            href="https://stackoverflow.com/users/21034982/kaxun"
+            href="https://stackoverflow.com/users/yourprofile" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -48,7 +51,7 @@ const Footer = () => {
             <span>Stack Overflow</span>
           </a>
           <a
-            href="https://medium.com/@kaxun"
+            href="https://medium.com/@yourprofile" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -62,7 +65,7 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start space-y-4 z-20">
           <h3 className="text-xl font-bold mb-2">Social Media</h3>
           <a
-            href="https://www.facebook.com/kasun.madushan.wickramasinghe/"
+            href="https://facebook.com/yourprofile" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -71,7 +74,7 @@ const Footer = () => {
             <span>Facebook</span>
           </a>
           <a
-            href="https://www.instagram.com/k_a_x_u_n/"
+            href="https://instagram.com/yourprofile" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -80,7 +83,7 @@ const Footer = () => {
             <span>Instagram</span>
           </a>
           <a
-            href="https://www.linkedin.com/in/kaxun01/"
+            href="https://linkedin.com/in/yourprofile" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"

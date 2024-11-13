@@ -17,44 +17,54 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/dms.png"
           title="Warmhands Disaster Management System"
           description="A Disaster Management System developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
           This system allows users to report incidents related to natural disasters and notifies users in the affected area after admin verification."
-          liveDemoUrl="https://your-live-demo-link.com" // Update with actual live demo URL
+          liveDemoUrl="https://github.com/WarmHands-DMS/warmhands"
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="/hdp.png"
           title="Heart Disease Prediction Project"
-          description="Using Machine Learning to Understand Medical Data and Predict Heart Health"
+          description="Using Machine Learning to Understand Medical Data and Predict Heart Health: 
+          This project leverages machine learning algorithms to analyze medical data and identify factors influencing heart health  
+          By training models on a dataset of patient health metrics.
+          This application supports early intervention and informed decision-making in healthcare."
           liveDemoUrl="https://heart-disease-prediction-system-ml.streamlit.app/" // Update with actual live demo URL
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/portfolio.png"
           title="Nextjs & Three Portfolio"
-          description=" Developed a Portfolio website using Next-js, Three-js and Framer motion"
-          liveDemoUrl="https://your-space-website-demo.com" // Update with actual live demo URL
+          description=" I developed a dynamic portfolio website using Next.js, Three.js, and Framer Motion to showcase my work and skills. 
+          The site features smooth animations, interactive 3D elements, and responsive design, creating an engaging and visually rich user experience.
+          Next.js ensures fast performance and SEO optimization, while Three.js adds immersive 3D graphics, and Framer Motion enhances animations for a modern interface."
+          liveDemoUrl="https://github.com/KAXUN01/nextjs-portfolio" // Update with actual live demo URL
         />
       </div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 py-12">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/dms.png"
           title="Warmhands Disaster Management System"
           description="A Disaster Management System developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
           This system allows users to report incidents related to natural disasters and notifies users in the affected area after admin verification."
-          liveDemoUrl="https://your-live-demo-link.com" // Update with actual live demo URL
+          liveDemoUrl="https://github.com/WarmHands-DMS/warmhands"
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="/hdp.png"
           title="Heart Disease Prediction Project"
-          description="Using Machine Learning to Understand Medical Data and Predict Heart Health"
+          description="Using Machine Learning to Understand Medical Data and Predict Heart Health: 
+          This project leverages machine learning algorithms to analyze medical data and identify factors influencing heart health  
+          By training models on a dataset of patient health metrics.
+          This application supports early intervention and informed decision-making in healthcare."
           liveDemoUrl="https://heart-disease-prediction-system-ml.streamlit.app/" // Update with actual live demo URL
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/portfolio.png"
           title="Nextjs & Three Portfolio"
-          description=" Developed a Portfolio website using Next-js, Three-js and Framer motion"
-          liveDemoUrl="https://your-space-website-demo.com" // Update with actual live demo URL
+          description=" I developed a dynamic portfolio website using Next.js, Three.js, and Framer Motion to showcase my work and skills. 
+          The site features smooth animations, interactive 3D elements, and responsive design, creating an engaging and visually rich user experience.
+          Next.js ensures fast performance and SEO optimization, while Three.js adds immersive 3D graphics, and Framer Motion enhances animations for a modern interface."
+          liveDemoUrl="https://github.com/KAXUN01/nextjs-portfolio" // Update with actual live demo URL
         />
       </div>
     </div>

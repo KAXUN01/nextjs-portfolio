@@ -16,7 +16,6 @@ export default function Home() {
         <AboutMe />
         <Education />
         <Projects />
-        <blog />
       </div>
     </main>
   );

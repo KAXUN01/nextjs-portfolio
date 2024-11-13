@@ -1,65 +1,101 @@
 import React from "react";
 import Mail from "../sub/Mail";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
-
-import { FaYoutube } from "react-icons/fa";
+import { RxInstagramLogo, RxLinkedinLogo, RxGithubLogo } from "react-icons/rx";
+import { FaFacebook, FaFigma, FaStackOverflow, FaMedium } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div
-      className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[20px] z-[30]"
-      id="contact"
-    >
-      <div className="w-full flex flex-col items-left justify-center m-auto z-[30]">
-        <div className="w-full h-full flex flex-row items-center justify-around flex-wrap z-[30]">
-          <div className="min-w-[200px] h-auto flex flex-col items-left justify-start">
-            <div className="font-bold text-[18px]">Community</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <FaYoutube />
-              <span className="text-[15px] ml-[6px]">Youtube</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxGithubLogo />
-              <span className="text-[15px] ml-[6px]">Github</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxDiscordLogo />
-              <span className="text-[15px] ml-[6px]">Discord</span>
-            </p>
-          </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-left justify-start">
-            <div className="font-bold text-[18px]">Social Media</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxInstagramLogo />
-              <span className="text-[15px] ml-[6px]">Instagram</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxTwitterLogo />
-              <span className="text-[15px] ml-[6px]">Twitter</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxLinkedinLogo />
-              <span className="text-[15px] ml-[6px]">Linkedin</span>
-            </p>
-          </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="">
-              <Mail />
-            </div>
-          </div>
+    <footer className="w-full bg-gray-950 text-gray-200 py-10 px-6 md:px-40">
+      {/* Centered Mail Section */}
+      <div className="flex justify-center mb-6">
+        <a
+          href="mailto:your-email@example.com"
+          className="text-gray-300 hover:text-white transition z-20"
+        >
+          <Mail />
+        </a>
+      </div>
+
+      <div className="container mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start space-y-6 md:space-y-0">
+        {/* Community Links */}
+        <div className="flex flex-col items-center md:items-start space-y-4 z-40">
+          <h3 className="text-xl font-bold mb-2">Community</h3>
+          <a
+            href="https://www.figma.com/@kaxun"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
+          >
+            <FaFigma />
+            <span>Figma</span>
+          </a>
+          <a
+            href="https://github.com/KAXUN01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
+          >
+            <RxGithubLogo />
+            <span>GitHub</span>
+          </a>
+          <a
+            href="https://stackoverflow.com/users/21034982/kaxun"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
+          >
+            <FaStackOverflow />
+            <span>Stack Overflow</span>
+          </a>
+          <a
+            href="https://medium.com/@kaxun"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
+          >
+            <FaMedium />
+            <span>Medium</span>
+          </a>
         </div>
 
-        <div className="mb-[10px] text-[12px] text-center ">
-          &copy; KAXUN Dev 2024 Inc. All rights reserved
+        {/* Social Media Links */}
+        <div className="flex flex-col items-center md:items-start space-y-4 z-20">
+          <h3 className="text-xl font-bold mb-2">Social Media</h3>
+          <a
+            href="https://www.facebook.com/kasun.madushan.wickramasinghe/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
+          >
+            <FaFacebook />
+            <span>Facebook</span>
+          </a>
+          <a
+            href="https://www.instagram.com/k_a_x_u_n/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
+          >
+            <RxInstagramLogo />
+            <span>Instagram</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kaxun01/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
+          >
+            <RxLinkedinLogo />
+            <span>LinkedIn</span>
+          </a>
         </div>
       </div>
-    </div>
+
+      {/* Copyright */}
+      <div className="text-center mt-10 text-gray-500 text-sm">
+        &copy; KAXUN Dev 2024. All rights reserved.
+      </div>
+    </footer>
   );
 };
 

@@ -13,10 +13,10 @@ const SkillsEducationSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Skills Section */}
         <motion.div
-          className="bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md"
+          className="bg-opacity-50 bg-gray-800 p-6 rounded-lg shadow-md "
           initial={{ opacity: 0, x: -200 }} // Start off-screen from the left
           animate={{ opacity: 1, x: 0 }} // Animate to normal position
-          transition={{ duration: 0.6 }} // Duration for the animation
+          transition={{ duration: 0.9 }} // Duration for the animation
         >
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Skills

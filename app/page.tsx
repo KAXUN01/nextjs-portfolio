@@ -5,6 +5,8 @@ import Skills from "@/components/main/Skills";
 import AboutMe from "@/components/main/aboutMe";
 import Education from "@/components/main/education";
 import Image from "next/image";
+import Link from "next/link";
+import blog from "@/components/main/blog";
 
 export default function Home() {
   return (

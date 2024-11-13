@@ -25,10 +25,10 @@ const Mail = () => {
     <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4 cursor-pointer">
       {/* Email Box with White Border, Responsive Padding and Font Size */}
       <div
-        className="p-3 md:p-4 rounded-lg shadow-lg border-2 border-white text-center md:text-left w-full md:w-auto"
+        className="p-3 md:p-4 rounded-lg shadow-lg border-2 border-white bg-green-900 text-center md:text-left w-full md:w-auto"
         onClick={handleCopyEmail}
       >
-        <span className="text-base md:text-lg font-semibold text-white">
+        <span className="text-base md:text-lg font-light text-white">
           {email}
         </span>
       </div>

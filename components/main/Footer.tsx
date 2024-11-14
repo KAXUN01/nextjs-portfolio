@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start space-y-4 z-40">
           <h3 className="text-xl font-bold mb-2">Community</h3>
           <a
-            href="https://figma.com/yourprofile" // Update link
+            href="https://www.figma.com/@kaxun" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -33,7 +33,7 @@ const Footer = () => {
             <span>Figma</span>
           </a>
           <a
-            href="https://github.com/yourprofile" // Update link
+            href="https://github.com/KAXUN01" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -42,7 +42,7 @@ const Footer = () => {
             <span>GitHub</span>
           </a>
           <a
-            href="https://stackoverflow.com/users/yourprofile" // Update link
+            href="https://stackoverflow.com/users/21034982/kaxun" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -51,7 +51,7 @@ const Footer = () => {
             <span>Stack Overflow</span>
           </a>
           <a
-            href="https://medium.com/@yourprofile" // Update link
+            href="https://medium.com/@kaxun" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -65,7 +65,16 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start space-y-4 z-20">
           <h3 className="text-xl font-bold mb-2">Social Media</h3>
           <a
-            href="https://facebook.com/yourprofile" // Update link
+            href="https://www.linkedin.com/in/kaxun01/" // Update link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
+          >
+            <RxLinkedinLogo />
+            <span>LinkedIn</span>
+          </a>
+          <a
+            href="https://www.facebook.com/kasun.madushan.wickramasinghe/" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
@@ -74,22 +83,13 @@ const Footer = () => {
             <span>Facebook</span>
           </a>
           <a
-            href="https://instagram.com/yourprofile" // Update link
+            href="https://www.instagram.com/k_a_x_u_n/" // Update link
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
           >
             <RxInstagramLogo />
             <span>Instagram</span>
-          </a>
-          <a
-            href="https://linkedin.com/in/yourprofile" // Update link
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-2 text-gray-300 hover:text-white transition transform hover:scale-105"
-          >
-            <RxLinkedinLogo />
-            <span>LinkedIn</span>
           </a>
         </div>
       </div>

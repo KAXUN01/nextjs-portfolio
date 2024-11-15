@@ -9,8 +9,6 @@ const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
-
-
         {/* Desktop Navbar Links */}
         <div className="hidden md:flex items-center justify-center w-full">
           <div className="flex items-center justify-between w-full max-w-2xl border border-[#7042f861] bg-[#0300145e] py-[10px] px-[20px] rounded-full text-gray-200">
@@ -26,9 +24,15 @@ const Navbar = () => {
             <a href="#contact" className="cursor-pointer">
               Contact me
             </a>
+            <a
+              href="https://kaxun.medium.com/"
+              target="_blank"
+              className="cursor-pointer"
+            >
+              Blog
+            </a>
           </div>
         </div>
-
 
         {/* Mobile Burger Menu */}
         <div className="md:hidden flex items-center">

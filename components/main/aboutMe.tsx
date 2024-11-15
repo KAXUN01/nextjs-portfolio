@@ -23,18 +23,18 @@ const AboutMe = () => {
           BIOGRAPHY <br />
         </h2>
         <p className="text-gray-50 mb-4 text-2xl font-serif shadow-lg">
-          Hey there!, I'm <span className="font-bold">Kasun</span> from
-          Rathnapura in Sri Lanka. I’m passionate about coding, automating
+          Hey there!, I&apos;m <span className="font-bold">Kasun</span> from
+          Rathnapura in Sri Lanka. I&apos;m passionate about coding, automating
           processes, and building systems that work smoothly and efficiently.
-          Right now, I’m pursuing a degree in Information and Communication
-          Technology, and I’m always looking for new ways to grow and stay ahead
-          of the tech curve.
+          Right now, I&apos;m pursuing a degree in Information and Communication
+          Technology, and I&apos;m always looking for new ways to grow and stay
+          ahead of the tech curve.
         </p>
         <p className="text-gray-50 mb-4 text-2xl font-serif shadow-lg">
-          I love astronomy. It’s something that really fuels my creativity and
-          curiosity. I bring that same energy to everything I do, whether I’m
-          solving problems or building new systems. Hit me up and let’s create
-          something amazing together!
+          I love astronomy. It&apos;s something that really fuels my creativity
+          and curiosity. I bring that same energy to everything I do, whether
+          I&apos;m solving problems or building new systems. Hit me up and
+          let&apos;s create something amazing together!
         </p>
       </div>
     </section>

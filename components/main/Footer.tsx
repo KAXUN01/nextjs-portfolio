@@ -12,7 +12,7 @@ const Footer = () => {
       {/* Centered Mail Section */}
       <div className="flex justify-center mb-6">
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:kasunmadhushanw@gmail.com"
           className="text-gray-300 hover:text-white transition z-20"
         >
           <Mail />

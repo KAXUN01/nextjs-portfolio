@@ -85,6 +85,12 @@ const Navbar = () => {
           >
             Contact me
           </a>
+          <a
+            href="https://kaxun.medium.com"
+            className="block py-2 px-4 cursor-pointer hover:bg-[#7042f861] rounded-md"
+          >
+            Blog
+          </a>
         </div>
       )}
     </div>

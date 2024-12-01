@@ -20,8 +20,8 @@ const AboutMe = () => {
       </div>
       <div className="md:w-1/2 md:mr-8">
         <h2 className="text-5xl font-bold text-gray-50 mb-4">
-        &lt;ABOUT me/&gt;
- <br />
+          &lt;ABOUT ME/&gt;
+          <br />
         </h2>
         <p className="text-gray-50 mb-4 text-2xl font-serif shadow-lg">
           Hey there!, I&apos;m <span className="font-bold">Kasun</span> from

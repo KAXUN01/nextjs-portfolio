@@ -33,6 +33,8 @@ const SkillsEducationSection = () => {
             <li>Monitoring Tools (Prometheus, Grafana)</li>
             <li>HTML5 & CSS3</li>
             <li>JavaScript (ES6+)</li>
+            <li>JAVA/C</li>
+            <li>GO/PYTHON</li>
             <li>React & Next.js</li>
             <li>Tailwind CSS</li>
             <li>Node.js & Express</li>

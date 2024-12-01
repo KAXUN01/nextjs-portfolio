@@ -46,7 +46,8 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="z-30 hover:scale-125 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] relative transition-transform duration-300 ease-in-out"
-          href="#"
+          href="/resume.pdf"
+          target="_blank"
         >
           DOWNLOAD CV
         </motion.a>

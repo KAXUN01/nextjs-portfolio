@@ -1,17 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
-.cursive {
-  font-family: "Cedarville Cursive", cursive;
-}
-
-.cinzel {
-  font-family: "Cinzel", cinzel;
+@font-face {
+  font-family: "Cinzel";
+  src: url("/fonts/Cinzel.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .Welcome-text {
@@ -69,8 +64,6 @@
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
-
-
 
 html {
   scroll-behavior: smooth;

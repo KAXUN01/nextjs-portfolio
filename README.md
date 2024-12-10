@@ -18,4 +18,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Live demo
 
-ec2-54-83-180-122.compute-1.amazonaws.com
+ec2-54-173-158-179.compute-1.amazonaws.com

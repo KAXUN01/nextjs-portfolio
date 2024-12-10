@@ -37,7 +37,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-sm lg:text-md text-gray-400 my-5 max-w-full lg:max-w-[620px] relative"
+          className="text-sm lg:text-lg text-gray-400 my-5 max-w-full lg:max-w-[620px] relative"
         >
           I&apos;m a Full Stack Software Engineer with a strong foundation in
           DevOps. I build and deploy efficient, scalable applications, combining

@@ -21,9 +21,9 @@ const ProjectCard = ({ src, title, description, liveDemoUrl }: Props) => {
         <Image
           src={src}
           alt={title}
-          width={1000}
-          height={1000}
-          className="w-full object-contain"
+          height={300}
+          width={500}
+          className="h-200 w-full object-cover rounded-md"
         />
 
         <div className="relative p-4">

@@ -43,11 +43,11 @@ const Projects = () => {
       </div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 py-12">
         <ProjectCard
-          src="/dms.png"
-          title="Warmhands Disaster Management System"
-          description="A Disaster Management System developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). 
-          This system allows users to report incidents related to natural disasters and notifies users in the affected area after admin verification."
-          liveDemoUrl="https://github.com/WarmHands-DMS/warmhands"
+          src="/terraform.png"
+          title="Build Complete CI/CD Pipeline with Terraform and GitHub Actions"
+          description="Designed and implemented a robust CI/CD pipeline for seamless application deployment. 
+          Leveraged Terraform for infrastructure as code (IaC) to provision scalable and reliable cloud resources, and used GitHub Actions to automate build, test, and deployment processes."
+          liveDemoUrl="https://github.com/KAXUN01/Complete-CI-CD-with-Terraform"
         />
         <ProjectCard
           src="/hdp.png"

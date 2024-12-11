@@ -37,7 +37,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-sm lg:text-md text-gray-400 my-5 max-w-full lg:max-w-[620px] relative"
+          className="text-sm lg:text-lg text-gray-400 my-5 max-w-full lg:max-w-[620px] relative text-justify"
         >
           I&apos;m a Full Stack Software Engineer with a strong foundation in
           DevOps. I build and deploy efficient, scalable applications, combining
@@ -46,11 +46,11 @@ const HeroContent = () => {
 
         <motion.a
           variants={slideInFromLeft(1)}
-          className="z-30 hover:scale-125 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[160px] lg:max-w-[200px] mx-auto lg:mx-0 relative transition-transform duration-300 ease-in-out"
+          className="z-30 hover:scale-125 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[160px] lg:max-w-[200px] mx-auto lg:mx-0 relative transition-transform duration-300 ease-in-out border-2 border-green-500"
           href="/resume.pdf"
           target="_blank"
         >
-          DOWNLOAD CV
+          Get My Profile
         </motion.a>
       </div>
 

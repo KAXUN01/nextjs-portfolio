@@ -1,10 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State for burger menu toggle
+
+  useEffect(() => {
+    // Event listener for clicks outside the menu
+    const handleClickOutside = (event) => {
+      if (!event.target.closest(".menu-container")) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    // Attach the event listener on mount
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Cleanup the event listener on unmount
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
@@ -60,7 +77,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden w-full bg-[#0300145e] text-gray-200 px-10 py-4">
+        <div className="md:hidden w-full bg-[#0300145e] text-gray-200 px-10 py-4 menu-container">
           <a
             href="#about-me"
             className="block py-2 px-4 cursor-pointer hover:bg-[#7042f861] rounded-md"

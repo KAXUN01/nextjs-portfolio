@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width: 568px) {
+  .font-cinzel {
+    font-size: 1rem; /* Smaller font size for mobile */
+  }
+
+  .text-2xl {
+    font-size: 1rem; /* Further reduce the text size for paragraph */
+  }
+}
+
 @font-face {
   font-family: "Cinzel";
   src: url("/fonts/Cinzel.ttf") format("truetype");

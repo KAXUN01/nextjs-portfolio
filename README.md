@@ -19,3 +19,5 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Live demo
 
 ec2-54-173-158-179.compute-1.amazonaws.com
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/92d2b42b-d807-49cd-a84a-ff5cb8d36d45/deploy-status)](https://app.netlify.com/sites/kaxun/deploys)

@@ -61,8 +61,8 @@ const HeroContent = () => {
         className="w-full h-auto flex justify-center items-center mt-10 lg:mt-0 relative"
       >
         <Image
-          src="/mainIconsdark.svg"
-          alt="work icons"
+          src="/heropng.png"
+          alt="hero image"
           height={350}
           width={350}
           className="lg:h-[650px] lg:w-[650px]"

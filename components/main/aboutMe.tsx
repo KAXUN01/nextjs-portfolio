@@ -19,7 +19,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="sm:w-full md:w-1/2 md:mr-8">
-        <h2 className="text-lg sm:text-xl md:text-3xl lg:text-5xl font-bold font-cinzel text-white mb-4">
+        <h2 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold font-cinzel text-white mb-4">
           &lt; ABOUT ME /&gt;
           <br />
         </h2>

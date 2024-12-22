@@ -12,9 +12,10 @@ const Projects = () => {
       className="flex flex-col items-center justify-center py-30 z-20 text-justify"
       id="projects"
     >
-      <h1 className="sm:text-3xl md:text-4xl lg:text-6xl font-semibold text-transparent bg-clip-text py-20">
+      <h1 className="sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent py-20">
         My Projects
       </h1>
+
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/dms.png"

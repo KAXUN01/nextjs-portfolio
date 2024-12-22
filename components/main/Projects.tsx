@@ -9,10 +9,10 @@ const ProjectCard = dynamic(() => import("../sub/ProjectCard"), {
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py- z-20 text-justify"
+      className="flex flex-col items-center justify-center py-30 z-20 text-justify"
       id="projects"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h1 className="sm:text-3xl md:text-4xl lg:text-6xl font-semibold text-transparent bg-clip-text py-20">
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">

@@ -17,11 +17,11 @@ const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center lg:text-start relative">
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-4xl lg:text-6xl font-bold text-white max-w-full lg:max-w-[630px] w-auto h-auto relative"
+          className="flex flex-col gap-6 mt-6 sm:text-2xl md:text-4xl lg:text-6xl font-bold text-white max-w-full lg:max-w-[630px] w-auto h-auto relative"
         >
           <span>
             Hello! <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               I&apos;m KASUN{" "}
             </span>
@@ -46,7 +46,7 @@ const HeroContent = () => {
 
         <motion.a
           variants={slideInFromLeft(1)}
-          className="z-30 hover:scale-125 py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[160px] lg:max-w-[200px] mx-auto lg:mx-0 relative transition-transform duration-300 ease-in-out border-2 border-green-500"
+          className="z-30 hover:scale-125 py-2 sm:text-md md:text-xl lg:text-xl button-primary text-center text-white cursor-pointer rounded-lg max-w-[160px] lg:max-w-[200px] mx-auto lg:mx-0 relative transition-transform duration-300 ease-in-out border-2 border-green-500"
           href="/resume.pdf"
           target="_blank"
         >

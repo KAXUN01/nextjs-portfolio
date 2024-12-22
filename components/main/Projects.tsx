@@ -30,7 +30,7 @@ const Projects = () => {
           This project leverages machine learning algorithms to analyze medical data and identify factors influencing heart health  
           By training models on a dataset of patient health metrics.
           This application supports early intervention and informed decision-making in healthcare."
-          liveDemoUrl="https://heart-disease-prediction-system-ml.streamlit.app/" 
+          liveDemoUrl="https://heart-disease-prediction-system-ml.streamlit.app/"
         />
         <ProjectCard
           src="/portfolio.png"
@@ -38,7 +38,7 @@ const Projects = () => {
           description=" I developed a dynamic portfolio website using Next.js, Three.js, and Framer Motion to showcase my work and skills. 
           The site features smooth animations, interactive 3D elements, and responsive design, creating an engaging and visually rich user experience.
           Next.js ensures fast performance and SEO optimization, while Three.js adds immersive 3D graphics, and Framer Motion enhances animations for a modern interface."
-          liveDemoUrl="https://github.com/KAXUN01/nextjs-portfolio" 
+          liveDemoUrl="https://github.com/KAXUN01/nextjs-portfolio"
         />
       </div>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 py-12">
@@ -54,7 +54,15 @@ const Projects = () => {
           title="Deploy Node.js application to AWS EC2 using GitHub Actions and docker"
           description="This project automates the deployment of a Node.js application to AWS EC2 using GitHub Actions and Docker. 
           It includes containerizing the app, setting up an EC2 server, and creating a CI/CD pipeline for seamless, automated updates with minimal manual effort."
-          liveDemoUrl="https://github.com/KAXUN01/nextjs-portfolio" 
+          liveDemoUrl="https://github.com/KAXUN01/nextjs-portfolio"
+        />
+        <ProjectCard
+          src="/Astronomy.png"
+          title="Astronomy Date Formatter NPM package"
+          description="The astronomy-date-formatter is an innovative JavaScript package that transforms ordinary date formatting into a celestial experience.
+           Designed for astronomy enthusiasts and creative developers, it offers exciting themes such as zodiac signs and lunar phases. 
+           What makes this package truly unique is its use of real lunar calculations.This package provides a distinctive way to display dates with a cosmic flair!"
+          liveDemoUrl="https://www.npmjs.com/package/astronomy-date-formatter"
         />
       </div>
     </div>

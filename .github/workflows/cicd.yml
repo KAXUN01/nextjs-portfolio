@@ -28,3 +28,5 @@ jobs:
         run: docker rm -f nextjs-app-container  
       - name: Run docker container
         run: docker run -d -p 80:3000 --name nextjs-app-container kaxun/nextjs-portfolio-app 
+      - name: Delete existing images
+        run: docker image prune -a -f
